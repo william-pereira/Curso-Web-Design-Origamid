@@ -1,0 +1,59 @@
+.interna_produtos {
+  background: url("../img/bg-produtos.jpg") no-repeat center;
+  background-size: cover;
+}
+.produtos_item {
+  padding-top: 60px;
+}
+.produto_icone {
+  background-color: black;
+  text-align: center;
+  padding: 68px 0;
+}
+.produtos_item h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  position: relative;
+  top: -204px;
+  text-align: center;
+  color: white;
+  margin-bottom: -60px;
+}
+.produtos_item h2:after,
+.produtos_item h2:before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #fff;
+  margin: 14px auto 6px auto;
+}
+.produto_info {
+  background: #000;
+}
+.produto_info p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 41px 30px;
+}
+.produto_info ul li {
+  background: #fec63e;
+  text-transform: uppercase;
+  width: 229px;
+  height: 48px;
+  float: left;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 16px;
+}
+/* O comando nth:-child seleciona itens da lista. :nth-child(odd) = ímpares / :nth-child(even) = pares */
+.produto_info ul li:nth-child(even) {
+  margin-left: 2px;
+}
+.produto_info ul li:nth-child(1),
+.produto_info ul li:nth-child(2) {
+  margin-bottom: 2px;
+}
