@@ -57,3 +57,34 @@
 .produto_info ul li:nth-child(2) {
   margin-bottom: 2px;
 }
+
+/* Orçamento */
+.orcamento {
+  background: #000;
+  width: 100%;
+  margin-top: 60px;
+  padding-top: 30px;
+}
+.orcamento h2 {
+  color: #fec63e;
+}
+.orcamento h2:after {
+  content: "";
+  width: 80px;
+  height: 3px;
+  margin-top: 8px;
+  display: block;
+  background-color: #fec63e;
+}
+.form {
+  padding-right: 60px;
+}
+.form label {
+  display: block;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 25px;
+}
+.form input {
+}
