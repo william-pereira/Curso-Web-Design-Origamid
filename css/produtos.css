@@ -111,9 +111,48 @@
   font-size: 14px;
   outline: none;
   font-family: Georgia, "Times New Roman", Times, serif;
+  resize: none;
+}
+.form textarea::-webkit-scrollbar {
+  width: 16px;
+}
+.form textarea::-webkit-scrollbar-thumb {
+  color: #000;
 }
 .form button {
   background: none;
   margin: 15px 0 30px 0;
   padding: 7px 40px;
+}
+.orcamento_dados {
+  color: white;
+}
+
+.orcamento_dados h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fec63e;
+  font-weight: bold;
+  line-height: 25px;
+}
+.orcamento_dados span {
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.dados-email {
+  margin-bottom: 20px;
+}
+
+.orcamento_dados ul li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  padding: 10px 15px;
+}
+.orcamento_dados ul li:nth-child(odd) {
+  background: #1d1d1d;
+}
+.orcamento_dados p {
+  margin: 8px 0;
 }
