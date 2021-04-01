@@ -117,7 +117,8 @@
   width: 16px;
 }
 .form textarea::-webkit-scrollbar-thumb {
-  color: #000;
+  background: #daac3d;
+  border-radius: 5px;
 }
 .form button {
   background: none;
