@@ -8,7 +8,8 @@ p {
   font-size: 14px;
 }
 
-.btn {
+.btn,
+.btn-branco {
   border: 3px solid #fec63e;
   padding: 10px 30px;
   color: #fec63e;
@@ -17,6 +18,11 @@ p {
   line-height: 20px;
   letter-spacing: 0.1em;
   font-weight: bold;
+  transition: 0.2s;
+}
+.btn-branco:hover {
+  color: rgb(12, 5, 5);
+  border-color: rgb(12, 9, 9);
   transition: 0.2s;
 }
 .btn:hover {
