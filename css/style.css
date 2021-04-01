@@ -320,7 +320,7 @@ p {
   line-height: 20px;
   font-family: Georgia, "Times New Roman", serif;
 }
-.footer-redes ul {
+.footer-redes ul li {
   display: inline-block;
   margin-right: 10px;
 }
