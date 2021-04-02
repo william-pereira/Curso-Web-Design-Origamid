@@ -97,7 +97,7 @@
   width: 300px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media only screen and (min-width: 788px) and (max-width: 995px) {
   .container {
     width: 768px;
   }
@@ -154,7 +154,7 @@
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 800px) {
   .container {
     width: 300px;
   }
@@ -177,5 +177,6 @@
   .grid-1-3 {
     width: 300px;
     margin-bottom: 20px;
+    float: none;
   }
 }
