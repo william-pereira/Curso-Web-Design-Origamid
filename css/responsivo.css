@@ -135,4 +135,7 @@
     line-height: 20px;
     padding: 22px 17px;
   }
+  .produto_info ul li {
+    width: 148px;
+  }
 } /* Final da parte de smart phones*/
