@@ -51,4 +51,16 @@
     padding-top: 20px;
     background: url("../img/bg-mobile.jpg") no-repeat center;
   }
+
+  /* Call */
+  .call {
+    padding-top: 10px;
+  }
+  .portfolio {
+    padding: 10px 0 19px 0;
+  }
+  /* Qualidade-Home */
+  .qualidade:after {
+    background: none;
+  }
 }
