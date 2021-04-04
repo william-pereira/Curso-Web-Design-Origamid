@@ -1,5 +1,11 @@
 /* Estilo para tablets */
 @media only screen and (min-width: 788px) and (max-width: 995px) {
+  .qualidade:after {
+    right: 66px;
+  }
+  .qualidade li {
+    padding: 0 10px;
+  }
 }
 
 /* Estilos para smartphones */
