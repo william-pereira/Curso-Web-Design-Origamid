@@ -63,4 +63,22 @@
   .qualidade:after {
     background: none;
   }
+  .introducao h1 {
+    font-size: 36px;
+  }
+
+  /* Footer */
+  .footer-historia {
+    padding-right: 0px;
+  }
+  .footer h3 {
+    text-align: center;
+  }
+  .footer h3:after {
+    margin: 10px auto 9px auto;
+  }
+  .footer-redes ul {
+    text-align: center;
+    margin-top: 20px;
+  }
 }
