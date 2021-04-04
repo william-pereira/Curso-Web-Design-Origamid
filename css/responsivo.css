@@ -21,7 +21,25 @@
   .quote-externo {
     top: 20px;
   }
-}
+  /* Produtos */
+
+  .produtos_item h2 {
+    top: -155px;
+    margin-bottom: -60px;
+  }
+  .produto_icone {
+    padding: 41px 0;
+  }
+  .produto_info p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 22px 17px;
+  }
+
+  .produto_info ul li {
+    width: 181px;
+  }
+} /* Final da parte de tablets*/
 
 /* Estilos para smartphones */
 @media only screen and (max-width: 800px) {
@@ -103,4 +121,18 @@
     font-size: 14px;
     line-height: 25px;
   }
-}
+  /* Produtos */
+
+  .produtos_item h2 {
+    top: -110px;
+    margin-bottom: -68px;
+  }
+  .produto_icone {
+    padding: 41px 0;
+  }
+  .produto_info p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 22px 17px;
+  }
+} /* Final da parte de smart phones*/
