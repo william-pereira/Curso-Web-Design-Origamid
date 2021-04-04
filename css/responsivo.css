@@ -138,4 +138,24 @@
   .produto_info ul li {
     width: 148px;
   }
+
+  .form {
+    padding: 0px;
+  }
+
+  /* Portfólio */
+
+  .quote_clientes {
+    padding: 22px;
+  }
+
+  .portfolio {
+    margin-top: 20px;
+  }
+
+  /*  Contato */
+
+  .contato_form {
+    padding-right: 0px;
+  }
 } /* Final da parte de smart phones*/
