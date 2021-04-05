@@ -82,7 +82,7 @@ img {
   padding: 15px 0;
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 2;
 }
 .header_menu {
   text-align: right;
@@ -366,4 +366,24 @@ img {
   opacity: 1;
   transition: opacity 500ms;
   z-index: 1;
+}
+[data-slide-nav] {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+[data-slide-nav] button {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 4px;
+  border: none;
+  padding: 0px;
+  border-radius: 6px;
+  text-indent: -99px;
+  overflow: hidden;
+  background: #1d1d1d;
+}
+[data-slide-nav] button.active {
+  background: #fec63e;
 }
