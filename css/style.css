@@ -403,3 +403,9 @@ img {
   height: 0px;
   position: absolute;
 }
+#form-sucesso {
+  color: #31aa39;
+}
+#form-erro {
+  color: #f64540;
+}
