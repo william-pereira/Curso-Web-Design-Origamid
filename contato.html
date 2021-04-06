@@ -46,9 +46,13 @@
 			<input type="email" id="email" name="email" required>
 			<label for="telefone">Telefone</label>
 			<input type="text" name="telefone" id="telefone">
+			<label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+			<input type="text" class="nao-aparece" name="leaveblank">
+			<label class="nao-aparece">Se você não é um robô, não mude esse campo.</label>
+			<input type="text" class="nao-aparece" name="dontchange" value="http://">
 			<label for="mensagem">Mensagem</label>
 			<textarea name="" id="mensagem" cols="30" rows="10" name="mensagem" required></textarea>
-			<button type="submit" class="btn-preto">Enviar</button>
+			<button type="submit" id="enviar" name="enviar" class="btn-preto">Enviar</button>
 		</form>
 		<div class="contato_dados grid-8">
 			<h3>Dados</h3>

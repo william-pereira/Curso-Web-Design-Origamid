@@ -398,3 +398,8 @@ img {
   transform: none;
   transition: transform 0.8s, opacity 0.8s;
 }
+.nao-aparece {
+  visibility: hidden;
+  height: 0px;
+  position: absolute;
+}
