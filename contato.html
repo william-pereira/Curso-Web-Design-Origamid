@@ -4,12 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Bikcraft - Contato</title>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/contato.css">
-	<link rel="stylesheet" href="css/responsivo.css">
 	<link rel="icon" type="image/png" href="img/favicon.ico">
 	<script>document.documentElement.classList.add("js");</script>
 </head>
@@ -38,7 +33,7 @@
 		</div>
 	</section>
 
-	<section class="contato container" data-anime="1200" class="fadeInDown">
+	<section class="contato container fadeInDown" data-anime="1200">
 		<form id="form-orcamento" method="POST" action="./enviar.php" class="contato_form grid-8 formphp">
 			<label for="nome">Nome</label>
 			<input type="text" id="nome" name="nome" required>
@@ -51,7 +46,7 @@
 			<label class="nao-aparece">Se você não é um robô, não mude esse campo.</label>
 			<input type="text" class="nao-aparece" name="dontchange" value="http://">
 			<label for="mensagem">Mensagem</label>
-			<textarea name="" id="mensagem" cols="30" rows="10" name="mensagem" required></textarea>
+			<textarea id="mensagem" cols="30" rows="10" name="mensagem" required></textarea>
 			<button type="submit" id="enviar" name="enviar" class="btn-preto">Enviar</button>
 		</form>
 		<div class="contato_dados grid-8">
@@ -69,9 +64,9 @@
 		</div>
 	</section>
 
-	<section class="container contato_mapa">
+	<div class="container contato_mapa">
 		<a href="https://www.google.com.br" target="_blank" class="grid-16"><img src="img/endereco-bikcraft.jpg" alt="Endereço Bikcraft"></a>
-	</section>
+	</div>
 
 	<div class="quebra">
 		<blockquote class="quote-externo container">
